@@ -1,0 +1,17 @@
+set even 0
+set odd 0
+
+for {set i 1} {$i <= 20} {incr i} {
+
+    if {[expr {$i % 2}] == 0} {
+        puts "$i is even"
+        incr even
+    } else {
+        puts "$i is odd"
+        incr odd
+    }
+
+}
+
+puts "Total even numbers: $even"
+puts "Total odd numbers: $odd"

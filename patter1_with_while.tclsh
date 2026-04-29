@@ -1,0 +1,22 @@
+set n 5
+set i 1
+
+while {$i <= $n} {
+
+    # left spaces
+    set s 1
+    while {$s <= [expr {$n - $i}]} {
+        puts -nonewline " "
+        incr s
+    }
+
+    # numbers with spaces
+    set j 1
+    while {$j <= $i} {
+        puts -nonewline "$j "
+        incr j
+    }
+
+    puts ""
+    incr i
+}

@@ -1,0 +1,15 @@
+set e 0
+set o 0
+
+for {set i 100} {$i >= 1} {incr i -1} {
+    if {$i % 2 == 0} {
+        puts "$i is even"
+        incr e
+    } else {
+        puts "$i is odd"
+        incr o
+    }
+}
+
+puts "Even: $e"
+puts "Odd: $o"

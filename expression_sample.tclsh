@@ -1,0 +1,6 @@
+#!/usr/bin/tclsh
+
+set a 10
+set b 5
+set sum [expr $a + $b]
+puts $sum

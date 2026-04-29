@@ -1,0 +1,7 @@
+set num 5
+
+if {[expr {$num % 2}] == 0} {
+    puts "Even"
+} else {
+    puts "Odd"
+}

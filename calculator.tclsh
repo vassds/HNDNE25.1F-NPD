@@ -1,0 +1,8 @@
+set a 2
+set b 3
+
+puts "Addition: [expr {$a + $b}]"
+puts "Subtraction: [expr {$a - $b}]"
+puts "Multiplication: [expr {$a * $b}]"
+puts "Division: [expr {$a / $b}]"
+

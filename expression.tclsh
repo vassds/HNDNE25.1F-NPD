@@ -1,0 +1,5 @@
+#!/usr/bin/tclsh
+
+expr 5 + 3 ;#8 
+expr 10 > 5 ;#1 (true)
+expr 4 * (2+3) ;
